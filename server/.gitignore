@@ -1,0 +1,32 @@
+# Dependency folders
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build folders
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Public uploads (Private data should be ignored)
+uploads/
+
+# MongoDB data files (Avoid local database files upload)
+WiredTiger*
+*.wt
+journal/
+diagnostic.data/
+mongod.lock
+mongodb.log
+storage.bson
+sizeStorer.wt
+
+# OS Files
+.DS_Store
